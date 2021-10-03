@@ -17,7 +17,7 @@ public class Solution31 {
             try {
                 System.out.println("Enter heart rate and age: ");
                 restingHR = Integer.parseInt(sc.next());
-                age = sc.nextInt();
+                age = Integer.parseInt(sc.next());
 
                 bError = false;
             }
