@@ -1,0 +1,13 @@
+
+Z
+java:S1117"=Rename "firstName" which hides the field declared at line 13.(§Ğ¸î8ê£çÅÄ/
+^
+java:S1117"<Rename "lastName" which hides the field declared at line 14.(Ë‡§ûÿÿÿÿ8à¶çÅÄ/
+Y
+java:S1117"7Rename "zip" which hides the field declared at line 15.(àáëÓøÿÿÿÿ8¹îåÅÄ/
+`
+java:S1117">Rename "employeeID" which hides the field declared at line 16.(ı¾Øïÿÿÿÿÿ8¹îåÅÄ/
+U
+java:S1854U":Remove this useless assignment to local variable "number".(·š™ÿÿÿÿÿ
+F
+java:S1481U"+Remove this unused "number" local variable.(·š™ÿÿÿÿÿ
