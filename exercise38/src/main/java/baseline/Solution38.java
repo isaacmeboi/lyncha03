@@ -1,12 +1,15 @@
 /*
  *  UCF COP3330 Fall 2021 Assignment 3 Solutions
- *  Copyright 2021 first_name last_name
+ *  Copyright 2021 Isaac Lynch
  */
 package baseline;
 
 import java.util.*;
 
 public class Solution38 {
+
+    String data;
+
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
@@ -58,5 +61,9 @@ public class Solution38 {
 
         // return Integer array
         return arr;
+    }
+
+    public void setData(String data) {
+        this.data = data;
     }
 }
