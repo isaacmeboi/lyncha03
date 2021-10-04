@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.Solution25Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-04T03:35:26" hostname="LAPTOP-3Q532GHH" time="0.025">
+  <properties/>
+  <testcase name="passwordValidator()" classname="baseline.Solution25Test" time="0.025"/>
+  <system-out><![CDATA[Weak]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
