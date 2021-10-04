@@ -1,12 +1,21 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Isaac Lynch
+ */
 package baseline;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Solution27 {
-    static String data = "";
 
-    public static void main(String[] args) {
+    static String data = "";
+    String firstName;
+    String lastName;
+    String zip;
+    String employeeID;
+
+    public void read(){
 
         Scanner input = new Scanner(System.in);
 
@@ -18,10 +27,13 @@ public class Solution27 {
         String zip = input.nextLine();
         System.out.print("Enter the employee ID: ");
         String employeeID = input.nextLine();
-
-        // call validateInput method
         validateInput(firstName, lastName, zip, employeeID);
+    }
 
+    public static void main(String[] args) {
+        // call validateInput method
+        Solution27 ca = new Solution27();
+        ca.read();
     }
 
     //validates all fields
@@ -92,4 +104,19 @@ public class Solution27 {
         return true;
     }
 
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setZip(String zip) {
+        this.zip = zip;
+    }
+
+    public void setEmployeeID(String employeeID) {
+        this.employeeID = employeeID;
+    }
 }
