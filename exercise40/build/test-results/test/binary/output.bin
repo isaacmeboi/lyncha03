@@ -1,0 +1,4 @@
+[Employee[ firstName=John, lastName=Johnson, position=Manager, separationDate=2016-12-31 ]
+hEmployee[ firstName=Michaela, lastName=Johnson, position=District Manager, separationDate=2015-12-19 ]
+\Employee[ firstName=Johnson, lastName=Jacobson, position=Programmer, separationDate=null ]
+[Employee[ firstName=John, lastName=Johnson, position=Manager, separationDate=2016-12-31 ]

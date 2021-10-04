@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.EmployeeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-04T04:20:10" hostname="LAPTOP-3Q532GHH" time="0.189">
+  <properties/>
+  <testcase name="TestEmployeeMap2()" classname="baseline.EmployeeTest" time="0.184"/>
+  <testcase name="TestEmployeeMap()" classname="baseline.EmployeeTest" time="0.004"/>
+  <system-out><![CDATA[Employee[ firstName=John, lastName=Johnson, position=Manager, separationDate=2016-12-31 ]
+Employee[ firstName=Michaela, lastName=Johnson, position=District Manager, separationDate=2015-12-19 ]
+Employee[ firstName=Johnson, lastName=Jacobson, position=Programmer, separationDate=null ]
+Employee[ firstName=John, lastName=Johnson, position=Manager, separationDate=2016-12-31 ]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
