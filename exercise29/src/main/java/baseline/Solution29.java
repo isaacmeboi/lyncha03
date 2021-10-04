@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Isaac Lynch
+ */
 package baseline;
 import java.util.Scanner;
 
@@ -13,17 +17,17 @@ public class Solution29 {
         while (true) {
             try {
                 System.out.print("What is the rate of return? ");
-                r = Integer.parseInt(sc.next()); //read r
+                r = Integer.parseInt(sc.next());
                 System.out.println("It will take " + math() + " years to double your initial investment.");
-                flag = true; //if exception not raised,set flag to true
-            } catch (NumberFormatException e) //catch invalid number exception
+                flag = true; //if exception not raised set flag true
+            } catch (NumberFormatException e) //catch invalid number
             {
                 System.out.println("Sorry. That's not a valid input");
-            } catch (ArithmeticException e) //catch division by error exception
+            } catch (ArithmeticException e) //catch division error
             {
                 System.out.println("Sorry. That's not a valid input");
             }
-            if (flag) //if exception not raised
+            if (flag)
             {
                 break;
             }
