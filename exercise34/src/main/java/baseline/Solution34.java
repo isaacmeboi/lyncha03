@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Isaac Lynch
+ */
 package baseline;
 
 import java.util.ArrayList;
@@ -35,6 +39,10 @@ public class Solution34 {
         for(String emp:employees) {
             System.out.println(emp);
         }
+    }
+
+    public void setEmployees(ArrayList<String> employees) {
+        this.employees = employees;
     }
 }
 
