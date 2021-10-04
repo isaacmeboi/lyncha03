@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Isaac Lynch
+ */
 package baseline;
 
 import java.util.Scanner;
@@ -46,5 +50,17 @@ public class Solution31 {
         ca.math();
 
         }
+
+    public void setRestingHR(int restingHR) {
+        this.restingHR = restingHR;
     }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setIntensity(double intensity) {
+        this.intensity = intensity;
+    }
+}
 

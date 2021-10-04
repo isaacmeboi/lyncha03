@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.Solution31Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-04T00:09:53" hostname="LAPTOP-3Q532GHH" time="0.036">
+  <properties/>
+  <testcase name="math()" classname="baseline.Solution31Test" time="0.036"/>
+  <system-out><![CDATA[55.0% | 138.0bpm
+60.0% | 145.0bpm
+65.0% | 151.0bpm
+70.0% | 158.0bpm
+75.0% | 165.0bpm
+80.0% | 171.0bpm
+85.0% | 178.0bpm
+90.0% | 185.0bpm
+95.0% | 191.0bpm
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
