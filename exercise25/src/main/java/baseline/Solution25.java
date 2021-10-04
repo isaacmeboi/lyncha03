@@ -1,13 +1,20 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Isaac Lynch
+ */
 package baseline;
 
 import java.util.*;
 
 public class Solution25 {
 
-    public static void passwordValidator(String input)
+    int n;
+    String i;
+
+    public String passwordValidator(String input)
     {
         // setting booleans false
-        int n = input.length();
+        n = input.length();
         boolean hasLower = false;
         boolean hasUpper = false;
         boolean hasDigit = false;
@@ -41,15 +48,22 @@ public class Solution25 {
         else
             System.out.print("Very Weak");
 
+        return input;
     }
 
     // Driver Code
     public static void main(String[] args)
     {
+        Solution25 ca = new Solution25();
         String input;
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter Password: ");
         input=sc.nextLine();
-        passwordValidator(input);
+        ca.passwordValidator(input);
+    }
+
+    public String setI(String i) {
+        this.i = i;
+        return i;
     }
 }
