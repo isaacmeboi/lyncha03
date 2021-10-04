@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Isaac Lynch
+ */
 package baseline;
 
 import java.util.ArrayList;
@@ -20,21 +24,26 @@ public class Solution35 {
                 nameList.add(name);
         }while(!name.isBlank() && !name.isEmpty());
 
+        Solution35 ca = new Solution35();
+        ca.pickWinner();
     }
-    public void pickWinner(){
+    public String pickWinner(){
         //generate a random index
         Random random = new Random();
         int randomIndex = random.nextInt(nameList.size());
 
         //pick the winner at the randomIndex of nameList
         System.out.println("The winner is... "+nameList.get(randomIndex));
+        return null;
     }
 
     public static void main(String[] args) {
 
         Solution35 ca = new Solution35();
         ca.addName();
-        ca.pickWinner();
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 }
