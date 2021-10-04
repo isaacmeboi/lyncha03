@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Isaac Lynch
+ */
 package baseline;
 import java.util.*;
 
@@ -18,11 +22,7 @@ public class Solution24 {
             Arrays.sort(ArrayS2);
             status = Arrays.equals(ArrayS1, ArrayS2);
         }
-        if (status) {
-            return true;
-        } else {
-            return false;
-        }
+        return status;
     }
 
     public static void main(String[] args) {
