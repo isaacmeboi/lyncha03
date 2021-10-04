@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solutions
+ *  Copyright 2021 Isaac Lynch
+ */
 package baseline;
 
 import java.util.Scanner;
@@ -77,6 +81,13 @@ public class Solution32 {
         ca.loop();
         }
 
+    public void setGuess(int guess) {
+        this.guess = guess;
     }
+
+    public void setKey(int key) {
+        this.key = key;
+    }
+}
 
 
